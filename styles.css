@@ -1,0 +1,79 @@
+body {
+	font-family: sans-serif;
+	color: #444444;
+	margin: 0px;
+}
+header {
+	background-color: #B6DBB4;
+	text-align: center;
+	color: white;
+	background: url(images/background.jpg);
+	background-size: cover;
+	background-position: fixed;
+}
+header img {
+	border: 3px solid #FFF;
+	border-radius: 50%;
+	padding: 10px;
+}
+img {
+	border: 2px solid gray;
+}
+.links h2 {
+	color: #FF572B;
+	padding-top: 10px;
+}
+.links stacked {
+	padding: 10px;
+}
+.padded {
+	padded: 50px 100px 50px 100px;
+}
+.contact {
+	padding-bottom: 15px;
+	background: url(images/dark_embroidery.png);
+	color: #FFF;
+	background-repeat: none;
+	background-position: bottom center;
+}
+.contact a:visited {
+	color: white;	
+}
+.contact a {
+	color: #FFF;
+}
+.contact h2 {
+	color: #FFF;
+}
+.contact img {
+	width: 100px;
+	margin: 10px;
+	border-radius: 50% 5%;
+	border: none;
+}
+#about {
+	background-color: orange;
+}
+.contact img:hover {
+	opacity: 0.5;
+}
+ul.hobbies li {
+	list-style: none;
+	display: inline-block;
+}
+.websites a {
+	background: #38A88F;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+	margin-right: 10px;
+}
+.websites a:hover {
+	background: #666;
+}
+h1, h2 {
+	font-family: "Bitter", sans-serif;
+}
